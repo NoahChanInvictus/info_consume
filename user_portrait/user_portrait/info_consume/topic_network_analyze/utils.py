@@ -20,7 +20,6 @@ Day = Hour * 24
 MinInterval = Fifteenminutes
 
 def gexf_process(data):
-	results = {}
 	#print type(data)
 	data = json.loads(data)
 	#print type(data)
